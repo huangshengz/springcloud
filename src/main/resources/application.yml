@@ -1,0 +1,8 @@
+#自定义属性
+my:
+  name: forezp
+  age: 20
+# 相当于是引进来了application-dev.yml
+spring:
+  profiles:
+    active: dev
